@@ -152,13 +152,13 @@
   }
   
   .primary-text {
-    color: #5be47d;
+    color: #f0b639;
   }
   
   /* Header Start */
   header {
     height: 100vh;
-    background: url("./IMG/rst.jpg") center center/cover no-repeat;
+    background: url("./imgs/bg.jpg") center center/cover no-repeat;
     position: relative;
   }
   
