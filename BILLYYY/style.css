@@ -148,7 +148,7 @@
   .btn-primary:hover,
   .btn-secondary:hover,
   .btn-third {
-    background: #5be47d;
+    background: #efb747;
   }
   
   .primary-text {
@@ -209,7 +209,7 @@
   }
   
   nav ul li a:hover {
-    border-bottom: 2px solid #5be47d;
+    border-bottom: 2px solid #e3bb42;
   }
   
   header .content {
