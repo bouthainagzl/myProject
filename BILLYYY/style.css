@@ -691,4 +691,141 @@
     color: var(--gold-crayola);
     text-decoration: underline;
   }
+  @media (min-width: 575px){
+
+    
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fontSize-body-2: 2rem;
+
+  }
+  .topbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 10px;
+    border-block-end: 1px solid var(--white-alpha-20);
+    z-index: 4;
+    transition: var(--transition-1);
+  }
+  .header { top: 51px; }
+
+  .header.active { top: 0; }
+
+  .header .btn {
+    display: block;
+    margin-inline-start: auto;
+  }
+ /**
+   * MENU
+   */
+
+   .menu-card .title-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .menu-card .badge { margin-block-start: 0; }
+
+  .menu-card .span {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+  }
+
+  .menu-card .span::before {
+    content: "";
+    height: 6px;
+    flex-grow: 1;
+    border-block: 1px solid var(--white-alpha-20);
+  }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+
+  .section-subtitle, .section-title {
+      margin-bottom: 20px;
+  }
+
+  .grid-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+  }
+
+  .menu-card {
+    
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s;
+  }
+
+  .menu-card:hover {
+      transform: scale(1.05);
+  }
+
+  .card-banner {
+      --width: 100px;
+      --height: 100px;
+      width: var(--width);
+      height: var(--height);
+      overflow: hidden;
+  }
+
+  .card-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .title-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .card-text {
+      padding: 0 10px 10px;
+  }
+
+    .menu .grid-list {
+      position: relative;
+      column-gap: 90px;
+    }
+  
+    .menu .grid-list::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      height: 100%;
+      border-inline-start: 1px solid var(--white-alpha-20);
+    }
+  
+  }
+  @media (min-width: 1200px){
+    .menu .grid-list {
+      gap: 55px 200px;
+      margin-block-end: 55px;
+    }
+  
+  }
+  
   
