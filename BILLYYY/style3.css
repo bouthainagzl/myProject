@@ -13,7 +13,7 @@ font-family: 'Poppins', sans-serif;
 } 
 .main{ 
    min-height: 100vh; 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./IMG/bgrdd.jpg") center/cover no-repeat; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/bgg.jpg") center/cover no-repeat; 
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
@@ -26,7 +26,7 @@ font-family: 'Poppins', sans-serif;
     grid-template-columns: 420px 420px; 
 } 
 .card-img{ 
-    background: url("./IMG/bck.jpg") center/cover no-repeat; 
+    background: url("./imgs/reserv.jpg") center/cover no-repeat; 
 } 
 .banner h2{ 
     padding-bottom: 40px; 
@@ -65,7 +65,7 @@ form input[type = text], form input[type = number], form input::placeholder, sel
 } 
 form input[type = submit]{ 
     color: #fff; 
-    background: #f2745f; 
+    background: #d8bd52; 
     padding: 12px 0; 
     border-radius: 4px; 
     cursor: pointer; 
